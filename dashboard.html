@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>لوحة التحكم - سوق التخفيضات</title>
+  <style>
+    body {
+      font-family: "Tahoma", sans-serif;
+      background-color: #f1f1f1;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1e88e5;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #1565c0;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+    .section {
+      background-color: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #1e88e5;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+    .btn {
+      padding: 8px 15px;
+      background-color: #1e88e5;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: #0d47a1;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>لوحة التحكم - سوق التخفيضات</h1>
+  </header>
+
+  <nav>
+    <a href="#">المنتجات</a>
+    <a href="#">الطلبات</a>
+    <a href="#">الإحصائيات</a>
+    <a href="#">الإعدادات</a>
+  </nav>
+
+  <div class="container">
+
+    <div class="section">
+      <h2>المنتجات</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>اسم المنتج</th>
+            <th>الوصف</th>
+            <th>الإجراء</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>كتاب التسويق الرقمي</td>
+            <td>دليل شامل للتسويق</td>
+            <td>
+              <button class="btn">تعديل</button>
+              <button class="btn">حذف</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <button class="btn" style="margin-top:10px;">إضافة منتج جديد</button>
+    </div>
+
+    <div class="section">
+      <h2>الطلبات</h2>
+      <p>لا توجد طلبات حالياً.</p>
+    </div>
+
+    <div class="section">
+      <h2>الإحصائيات</h2>
+      <ul>
+        <li>عدد الزوار: 1245</li>
+        <li>عدد المبيعات: 27</li>
+        <li>أعلى منتج مبيعاً: دورة تصميم جرافيك</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>إعدادات الدفع</h2>
+      <p>تم التفعيل: بطاقات بنكية / العملات الرقمية</p>
+    </div>
+
+  </div>
+</body>
+</html>

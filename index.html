@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>سوق التخفيضات - المتجر الرقمي</title>
+  <style>
+    body {
+      font-family: Tahoma, sans-serif;
+      background-color: #fafafa;
+      margin: 0; padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: #1e88e5;
+      color: white;
+      padding: 15px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-weight: normal;
+      letter-spacing: 1px;
+    }
+    nav {
+      background-color: #1565c0;
+      display: flex;
+      justify-content: flex-end;
+      padding: 10px 20px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      margin-left: 15px;
+      transition: opacity 0.3s;
+    }
+    nav a:hover {
+      opacity: 0.8;
+    }
+    .intro {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 0 15px;
+      text-align: center;
+    }
+    .intro p {
+      font-size: 1.2rem;
+      line-height: 1.5;
+      color: #555;
+    }
+    .products {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 15px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
+      gap: 20px;
+    }
+    .product-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .product-card h3 {
+      margin: 0 0 10px;
+      color: #1e88e5;
+      font-size: 1.1rem;
+    }
+    .product-card p {
+      flex-grow: 1;
+      font-size: 0.95rem;
+      color: #666;
+      margin-bottom: 15px;
+    }
+    .btn-buy {
+      background-color: #1e88e5;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      padding: 10px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      text-align: center;
+    }
+    .btn-buy:hover {
+      background-color: #0d47a1;
+    }
+    footer {
+      text-align: center;
+      padding: 15px 10px;
+      color: #777;
+      font-size: 0.9rem;
+      margin-top: 40px;
+      border-top: 1px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>سوق التخفيضات</h1>
+  </header>
+
+  <nav>
+    <a href="login.html">تسجيل الدخول</a>
+  </nav>
+
+  <section class="intro">
+    <p>مرحباً بك في سوق التخفيضات، متجرك الإلكتروني المفضل لشراء المنتجات الرقمية عالية الجودة بأسعار مخفضة. تصفح تشكيلتنا المتنوعة واختر ما يناسبك بسهولة وأمان.</p>
+  </section>
+
+  <section class="products">
+    <div class="product-card">
+      <h3>دورة تصميم الجرافيك</h3>
+      <p>تعلم أساسيات التصميم الجرافيكي باستخدام برامج مثل فوتوشوب وإليستريتور.</p>
+      <button class="btn-buy">شراء الآن</button>
+    </div>
+    <div class="product-card">
+      <h3>كتاب التسويق الرقمي</h3>
+      <p>دليل شامل لاستراتيجيات التسويق الرقمي التي ترفع من مبيعاتك على الإنترنت.</p>
+      <button class="btn-buy">شراء الآن</button>
+    </div>
+    <div class="product-card">
+      <h3>قوالب مواقع جاهزة</h3>
+      <p>مجموعات من قوالب المواقع الاحترافية لتسريع تطوير موقعك الإلكتروني.</p>
+      <button class="btn-buy">شراء الآن</button>
+    </div>
+    <div class="product-card">
+      <h3>دورة تطوير تطبيقات أندرويد</h3>
+      <p>تعلم برمجة تطبيقات الأندرويد باستخدام جافا وAndroid Studio خطوة بخطوة.</p>
+      <button class="btn-buy">شراء الآن</button>
+    </div>
+    <div class="product-card">
+      <h3>دروس فوتوشوب متقدمة</h3>
+      <p>تقنيات احترافية في تحرير الصور والتصميم باستخدام فوتوشوب.</p>
+      <button class="btn-buy">شراء الآن</button>
+    </div>
+    <div class="product-card">
+      <h3>مجموعة أيقونات مجانية</h3>
+      <p>حزمة أيقونات عالية الجودة مناسبة لتصميم المواقع والتطبيقات.</p>
+      <button class="btn-buy">شراء الآن</button>
+    </div>
+    <div class="product-card">
+      <h3>دورة تطوير مواقع ووردبريس</h3>
+      <p>تعلم كيفية بناء وإدارة مواقع ووردبريس بسهولة واحترافية.</p>
+      <button class="btn-buy">شراء الآن</button>
+    </div>
+    <div class="product-card">
+      <h3>كتاب تعلم البرمجة بلغة بايثون</h3>
+      <p>مقدمة شاملة لتعلم أساسيات البرمجة بلغة بايثون بطريقة مبسطة.</p>
+      <button class="btn-buy">شراء الآن</button>
+    </div>
+    <div class="product-card">
+      <h3>قوالب عروض تقديمية</h3>
+      <p>تصاميم عروض تقديمية جذابة قابلة للتعديل لأعمالك وعروضك.</p>
+      <button class="btn-buy">شراء الآن</button>
+    </div>
+    <div class="product-card">
+      <h3>دورة تحسين محركات البحث (SEO)</h3>
+      <p>تعلم استراتيجيات تحسين ظهور موقعك في نتائج البحث وزيادة الزيارات.</p>
+      <button class="btn-buy">شراء الآن</button>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 سوق التخفيضات. جميع الحقوق محفوظة.
+  </footer>
+</body>
+</html>
